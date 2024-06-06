@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.6.0](https://github.com/kuritify-org/release-please-poc/compare/v0.5.0...v0.6.0) (2024-06-06)
+
+
+### Features
+
+* index.js ([c120136](https://github.com/kuritify-org/release-please-poc/commit/c1201360073c0c8ba1527a3f4e0ed773f9857b8b))
+
+
+### Bug Fixes
+
+* index.js ([d593ddc](https://github.com/kuritify-org/release-please-poc/commit/d593ddc32053c20fc76dc165bd2e08ea3cbedc84))
+
 ## [0.5.0](https://github.com/kuritify-org/release-please-poc/compare/v0.4.0...v0.5.0) (2024-06-06)
 
 
