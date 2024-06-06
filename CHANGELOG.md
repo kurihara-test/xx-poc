@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.5.0](https://github.com/kuritify-org/release-please-poc/compare/v0.4.0...v0.5.0) (2024-06-06)
+
+
+### Features
+
+* baka ([ba1742c](https://github.com/kuritify-org/release-please-poc/commit/ba1742c6c9af2dfec68a0e7e8c9ddbafd0809bc9))
+
+
+### Bug Fixes
+
+* aiueo ([d8c2c82](https://github.com/kuritify-org/release-please-poc/commit/d8c2c82be868e04919561543e274818f31c37803))
+
 ## [0.4.0](https://github.com/kuritify-org/release-please-poc/compare/v0.3.0...v0.4.0) (2024-06-06)
 
 
