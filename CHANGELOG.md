@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.4.0](https://github.com/kuritify-org/release-please-poc/compare/v0.3.0...v0.4.0) (2024-06-06)
+
+
+### Features
+
+* fuga index.js ([740a944](https://github.com/kuritify-org/release-please-poc/commit/740a944cf8461acf0a36450a25079ca695b500c3))
+
+
+### Bug Fixes
+
+* fuga index.js ([610ae0c](https://github.com/kuritify-org/release-please-poc/commit/610ae0c9736de63c3c7b0b03d1fd6c21c300b415))
+
 ## [0.3.0](https://github.com/kuritify-org/release-please-poc/compare/v0.2.0...v0.3.0) (2024-06-06)
 
 
