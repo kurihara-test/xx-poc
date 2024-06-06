@@ -13,8 +13,7 @@ jobs:
   release-please:
     runs-on: ubuntu-latest
     steps:
-      - name: release-please
-        uses: googleapis/release-please-action@v4
+      - uses: googleapis/release-please-action@v4
         id: release
         with:
           config-file: release-please-config.json
@@ -23,18 +22,18 @@ jobs:
       - name: check outpu value
         run: |
           echo "## release-created"
-          echo ${{ steps.release.outputs.release_created }}
+          echo "${{ steps.release.outputs.release_created }}"
           echo ""
           echo "## tag_name"
-          echo ${{ steps.release.outputs.tag_name }}
+          echo "${{ steps.release.outputs.tag_name }}"
           echo ""
           echo "## major"
-          echo ${{ steps.release.outputs.major }}
+          echo "${{ steps.release.outputs.major }}"
           echo ""
           echo "## minor"
-          echo ${{ steps.release.outputs.major }}
+          echo "${{ steps.release.outputs.major }}"
           echo ""
           echo "## patch"
-          echo ${{ steps.release.outputs.major }}
+          echo "${{ steps.release.outputs.major }}"
           echo ""
 
