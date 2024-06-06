@@ -31,9 +31,9 @@ jobs:
           echo "${{ steps.release.outputs.major }}"
           echo ""
           echo "## minor"
-          echo "${{ steps.release.outputs.major }}"
+          echo "${{ steps.release.outputs.minor }}"
           echo ""
           echo "## patch"
-          echo "${{ steps.release.outputs.major }}"
+          echo "${{ steps.release.outputs.path }}"
           echo ""
 

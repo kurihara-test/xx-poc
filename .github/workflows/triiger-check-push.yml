@@ -10,7 +10,7 @@ jobs:
       - name: check trigger event
         run: |
           echo "## github.event_name"
-          echo "${{ github.event_name }}
+          echo "${{ github.event_name }}"
           echo ""
           echo "## githb.event.action"
-          echo "${{ github.event.action }}
+          echo "${{ github.event.action }}"
