@@ -13,11 +13,23 @@ jobs:
   release-please:
     runs-on: ubuntu-latest
     steps:
-      - uses: googleapis/release-please-action@v4
+      # check kuritify zenn articles
+      # https://zenn.dev/kuritify/articles/gitsubmodule-and-action#github-actions%E3%81%A8%E3%81%AE%E7%B5%B1%E5%90%88
+      - name: Generate a Git App installe access token
+        id: generate-token
+        uses: actions/create-github-app-token@v1.9.3
+        with:
+          app-id: ${{ vars.GH_APP_ID }}
+          private-key: ${{ secrets.GH_APP_PRIVATE_KEY }}
+          owner: "kuritify-org"
+      - name: release-please
+        uses: googleapis/release-please-action@v4
         id: release
         with:
           config-file: release-please-config.json
           manifest-file: .release-please-manifest.json
+          # GitHub Appのインストールアクセストークンを使いたい場合は、以下の行を有効化
+          token: ${{ steps.generate-token.outputs.token }}
 
       - name: check outpu value
         run: |
