@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/kuritify-org/release-please-poc/compare/v1.0.0...v1.0.1) (2024-06-07)
+
+
+### Bug Fixes
+
+* add comment ([#16](https://github.com/kuritify-org/release-please-poc/issues/16)) ([8c038f7](https://github.com/kuritify-org/release-please-poc/commit/8c038f7321ea841eacdbc912de756c5712d23fc3))
+
 ## [1.0.0](https://github.com/kuritify-org/release-please-poc/compare/v0.2.0...v1.0.0) (2024-06-06)
 
 
